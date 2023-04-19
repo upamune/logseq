@@ -1,5 +1,8 @@
 on: [push]
 
+concurrency:
+  publish
+
 permissions:
   contents: write
 jobs:
